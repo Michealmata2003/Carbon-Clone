@@ -1,0 +1,280 @@
+@media (max-width: 1400px) {
+    .carousel .slide{
+        display: none;
+    }
+    .squa-rot{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: calc(60% + 1px);
+    }
+    .feature-drop{
+        position: absolute;
+        right: 200px;
+    
+    }
+    .company-drop{
+        position: absolute;
+        right: 60px;
+        top:80px ;   
+    }
+    .squa-rat{
+        left: calc(77% + 15px);
+    }
+    .squa-ret{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: calc(69% + 15px);
+    }
+    .market img{
+        height: 70px;
+    }
+    .download1{
+        width: 30%;
+        bottom: 10px;
+    }
+    .group {
+        width: 30%;
+        position: absolute;
+        right: 300px;
+        bottom: 200px;
+    }
+    
+}
+
+
+
+
+
+@media (max-width: 1120px){
+    nav ul li {
+        padding: 30px 20px;
+    }
+    .hero h1{
+        font-size: 50px;
+    }
+    .hero h4{
+        font-size: 20px;
+    }
+    .contaner{
+        align-items: initial;
+    }
+    .instant .lll div{
+        width: 100%;
+    }
+    .instant .lll h3{
+        font-size: 35px;
+    }
+    .instant .lll h6{
+        font-size: 18px;
+    }
+    .amount{
+        margin-top: 200px;
+    }
+    .investment .lll{
+        padding: 50px 0px;
+    }
+    .florescence{
+        height: 50%;
+    }
+    .investment .lll h3{
+        font-size: 20px;
+    }
+    .investment .lll h6{
+        font-size: 18px;
+    }
+    .fast .lll{
+        padding: 50px 0px;
+ 
+    }
+    .fast .lll h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .fast .lll h6{
+        font-size: 18px;
+        line-height: 30px;
+
+    }
+    .credit{
+        height: 50vh;
+    }
+    .credit .div2 h3{
+        font-size: 20px;
+    }
+    .credit .div2 h6 {
+        font-size: inherit;
+    }
+    .visa .div1 h3{
+        font-size: 30px;
+    }
+    .visa .div1 h6{
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 950px) {
+    .logong{
+        display: none;
+    }
+    nav{
+        display: block;
+
+    }
+    nav ul{
+        display: block;
+    }
+    .sign-in{
+        background-color: white;
+        padding: 0px;
+    }
+    #navbar nav{
+        display: none;
+    }
+    .responsivenav{
+        display: block;
+    }
+    .feature-drop{
+        position: relative;
+        top:20px ;   
+        background-color: white;
+        display: none;
+        width: 100%;
+        right: 0px;
+    
+    }
+    #feature:hover > .feature-drop{
+        display: block;
+    }
+    .company-drop{
+        position: relative;
+        top:20px ;   
+        left: 0px;
+        background-color: white;
+        display: none;
+        width: 100%;
+    }
+    #company:hover > .company-drop{
+        display: block;
+    }
+    .help-drop{
+        position: relative;
+        right:0px;
+        top:80px ;   
+        width: 400px;
+        height: 500px;
+        background-color: white;
+        padding: 50px 30px;
+        border-radius: 20px;
+        box-shadow: 0 5px 50px rgba(0,0,0,0.2);
+        display: none;
+    }
+    .squa-rat , 
+    .squa-rot ,
+    .squa-ret{
+        display:none ;
+    }
+    .squa-rat{
+        display: none;
+    }
+    .movement{
+        display: none;
+    }
+    .amount{
+        position: relative;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container{
+        display: block;
+    }
+    .contaner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .instant .lll{
+        display: flex;
+        flex-direction: column;
+    }
+    .amount{
+        position: absolute;
+    }
+    .investment .lll{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fast .lll{
+        display: flex;
+        flex-direction: column;
+    }
+    .group{
+        width: 50%;
+        right: 370px;
+    }
+    .download1{
+        width: 40%;
+    }
+    .credit{
+        display: flex;
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    .visa{
+        display: flex;
+        flex-direction: column;
+    }
+    .one-two{
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .text{
+        margin: 10% 0px;
+        align-items: center;
+        text-align: center;
+    }
+    
+
+}
+@media (max-width:660px) {
+    .footer{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media (max-width:550px) {
+    .hero p{
+        font-size: 10px;
+        width: 300px;
+        margin-top: 100px;
+    }
+    .hero h1{
+        font-size: 40px;
+    }
+    .hero h4{
+        font-size: 17px;
+    }
+    .market{
+        display: block;
+    }
+    .sponsor {
+        display: block;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    
+}
